@@ -1,0 +1,13 @@
+[package]
+name = "tlslookup"
+version = "0.1.0"
+authors = ["quininer <quininer@live.com>"]
+
+[dependencies]
+futures = "*"
+tokio-core = "*"
+
+native-tls = "*"
+trust-dns = "*"
+trust-dns-proto = "*"
+trust-dns-native-tls = "*"
